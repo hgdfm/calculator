@@ -23,6 +23,7 @@ const currentNumberClass = "flex max-w-lg h-2/3 pb-2 text-xl";
 const currentNumber = document.querySelector(".currentNumber");
 currentNumberClass.split(" ").forEach((cls) => currentNumber.classList.add(cls));
 
+// Styling for al buttons
 const buttons = document.querySelectorAll("button");
 buttons.forEach((btn) => {
     addClasses(btn);
